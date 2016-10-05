@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <div id="app_content" class="row main_row fill">
+   
+   <!-- Our sidebar is full height and 3 columns wide -->
+   <div id="sidebar" class="col-sm-3">
+     <h1>Logo</h1>
+     <!--Sidebar content-->
+     <ul>
+       <li>This is a list item</li>
+       <li>And another</li>
+      </ul>
+   </div>
+   
+   <!-- our main chat content is full height and 9 columns wide. -->
+   <div id="chat_content" class="col-sm-9">
+     
+     <!-- This element is the header for the main chat area. -->
+     <div id="chat_header" class="row">
+       <div class="col-sm-12">
+         <h3>This is my header</h3>
+       </div>
+     </div>
+     
+      <!-- This element is most of the chat area. It's where your chat messages go. -->
+     <div id="repeating_content_area" class="row">
+       
+       <!-- These elements would be chat messages. They could repeat programatically based on content. -->
+       <div class="chat_message col-sm-12">
+         <p>This is a chat message</p>
+       </div>
+       <div class="chat_message col-sm-12">
+         <p>This is another chat message</p>
+       </div>
+     </div>
+     
+     <div id="chat_footer" class="row navbar navbar-fixed-bottom">
+       <div class="col-sm-10">
+         <input id="chat_msg" type="text"/>
+       </div>
+       <div class="col-sm-2">
+         <button>Submit</button>
+       </div>
+     </div>
+     
+   </div>
+ </div> 
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+          
+</body>
+</html>
